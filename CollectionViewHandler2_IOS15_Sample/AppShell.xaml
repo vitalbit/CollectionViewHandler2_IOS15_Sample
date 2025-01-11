@@ -8,8 +8,13 @@
     Title="CollectionViewHandler2_IOS15_Sample">
 
     <ShellContent
-        Title="Home"
+        Title="CollectionView"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    
+    <ShellContent
+        Title="CarouselView"
+        ContentTemplate="{DataTemplate local:CarouselViewPage}"
+        Route="CarouselViewPage" />
 
 </Shell>
