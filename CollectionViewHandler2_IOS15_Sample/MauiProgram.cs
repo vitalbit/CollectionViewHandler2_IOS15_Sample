@@ -18,8 +18,8 @@ public static class MauiProgram
 
 		builder.ConfigureMauiHandlers(handlers => {
 #if IOS
-		handlers.AddHandler<Microsoft.Maui.Controls.CollectionView, CustomCollectionViewHandler>();
-		handlers.AddHandler<Microsoft.Maui.Controls.CarouselView, CustomCarouselViewHandler>();
+		handlers.AddHandler<Microsoft.Maui.Controls.CollectionView, Microsoft.Maui.Controls.Handlers.Items2.CollectionViewHandler2>();
+		handlers.AddHandler<Microsoft.Maui.Controls.CarouselView, Microsoft.Maui.Controls.Handlers.Items2.CarouselViewHandler2>();
 #endif
 		});
 
